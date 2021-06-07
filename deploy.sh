@@ -16,4 +16,4 @@ kubectl apply -f k8s
 kubectl set image deployments/server-deployment server=rickopsourced/multi-server:$SHA
 kubectl set image deployments/client-deployment client=rickopsourced/multi-client:$SHA
 kubectl set image deployments/worker-deployment worker=rickopsourced/multi-worker:$SHA
-kubectl set image deployments/apache-deployment worker=rickopsourced/apache:$SHA
+kubectl set image deployments/apache-deployment apache=rickopsourced/apache:$SHA
